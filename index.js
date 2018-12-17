@@ -34,6 +34,6 @@ function callUrl () {
   })
 }
 
-callUrl.then(function(results) {
+callUrl().then(function(results) {
     console.log(results)
 })
